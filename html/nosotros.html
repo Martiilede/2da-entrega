@@ -14,52 +14,54 @@
 </head>
 
 <body>
-    <header class="header">
-        <section class="header__imagen imagen-logo">
-            <img class="header__imagen__img" src="../assets/imagen-logo.png" alt="imagen del logo">
+    <header>
+        <section class="imagen-logo">
+            <img src="../assets/imagen-logo.png" alt="imagen del logo">
         </section>
-        <section class="header__logo logo">
-            <img class="header__logo_img" src="../assets/logo.png" alt="Logo">
+        <section class="logo">
+            <img src="../assets/logo.png" alt="Logo">
         </section>
-        <nav class="header__navbar navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="header__navbar__container container-fluid">
-              <button class="header__navbar__button navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="barramenu navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="header__navbar__collapse collapse navbar-collapse" id="navbarNav">
-                <ul class="header__navbar__collapse__ul navbar-nav">
-                  <li class="header__navbar__collaprse__ul__li nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              <div class="barramenu__contenedor navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="barramenu__contenedor__lista nav-item">
+                    <a class="nav-link active barramenu__contenedor__lista__a" aria-current="page" href="../index.html">INICIO</a>
                   </li>
-                  <li class="header__navbar__collaprse__ul__li nav-item">
-                    <a class="nav-link" href="./nosotros.html">QUIENES SOMOS</a>
+                  <li class="barramenu__contenedor__lista nav-item">
+                    <a class="nav-link barramenu__contenedor__lista__a" href="./nosotros.html">QUIENES SOMOS</a>
                   </li>
-                  <li class="header__navbar__collaprse__ul__li nav-item">
-                    <a class="nav-link" href="./ubicacion.html">DONDE ESTAMOS</a>
+                  <li class="barramenu__contenedor__lista nav-item">
+                    <a class="nav-link barramenu__contenedor__lista__a" href="./ubicacion.html">DONDE ESTAMOS</a>
                   </li>
-                  <li class="header__navbar__collaprse__ul__li nav-item">
-                    <a class="nav-link" href="./opiniones.html">DEJANOS TU OPINION</a>
+                  <li class="barramenu__contenedor__lista nav-item">
+                    <a class="nav-link barramenu__contenedor__lista__a" href="./opiniones.html">DEJANOS TU OPINION</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
+    <aside>
+      <div class="carrito">
+          <a href="../html/carrito.html"><img class="carrito__imagen" src="../assets/carrito-de-compras.png" alt="carrito de compras"></a>
+      </div>
+    </aside>
     <main>
-            <div class="carrito">
-                <a href="../html/carrito.html"><img src="../assets/carrito-de-compras.png" alt="carritodecompras"></a>
-            </div>
             <div class="container">
-                <h1>Quiénes Somos</h1>
-                <p>Somos una empresa dedicada a ofrecer <span class="highlight">deliciosas pizzas</span> hechas con ingredientes frescos y de la más alta calidad.</p>
-                <p>Nuestro objetivo es brindar una experiencia gastronómica excepcional a nuestros clientes, combinando sabores auténticos con un servicio amigable y profesional.</p>
-                <p>En <span class="highlight">PIZZERIA "A LA PIZZA"</span>, nos enorgullece nuestro compromiso con la excelencia, desde la selección de ingredientes hasta la presentación final de cada plato.</p>
-                <p>¡Visítanos y descubre por qué somos el lugar favorito para los amantes de la pizza!</p>
+                <h1 class="container__titulo">Quiénes Somos</h1>
+                <p class="container__texto">Somos una empresa dedicada a ofrecer <span class="container__texto__subrayado">deliciosas pizzas</span> hechas con ingredientes frescos y de la más alta calidad.</p>
+                <p class="container__texto">Nuestro objetivo es brindar una experiencia gastronómica excepcional a nuestros clientes, combinando sabores auténticos con un servicio amigable y profesional.</p>
+                <p class="container__texto">En <span class="container__texto__subrayado">PIZZERIA "A LA PIZZA"</span>, nos enorgullece nuestro compromiso con la excelencia, desde la selección de ingredientes hasta la presentación final de cada plato.</p>
+                <p class="container__texto">¡Visítanos y descubre por qué somos el lugar favorito para los amantes de la pizza!</p>
             </div>
         </main>
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-social">
+        <footer>
+            <div class="footer__contenido">
+                <div class="footer__contenido__redes">
                     <h3>Síguenos en redes sociales</h3>
                     <ul>
                         <li><a href="[Enlace de Facebook]">Facebook</a></li>
@@ -68,10 +70,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="logo-final">
-                <img src="/assets/logo.png" alt="Logo de [Nombre del Negocio]">
+            <div class="footer__logo__final">
+                <img src="../assets/logo.png" alt="Logo de Pizzeria">
             </div>
-            <div class="footer">
+            <div class="footer__textofinal">
                 <p>&copy; 2024 Pizzeria a la Pizza. Todos los derechos reservados.</p>
             </div>
         </footer>

@@ -23,17 +23,10 @@ header{
 }
 a{
     padding: 0px 10px 0px 10px;
-    background-color: beige;
-    text-decoration: none;
-    border-radius: 100px;
-    color: black
-}
-.collapse{
-    display:flex;
-    justify-content: center;
-}
-.nav-item{
-    margin: 0px 120px 0px 40px;
+    background-color: beige ;
+    text-decoration: none !important;
+    border-radius: 100px ;
+    color: black;
 }
 /*carrito de compras*/
 .carrito{
@@ -66,8 +59,9 @@ margin-bottom: 6em;
     background-color: beige;
     border: 6px solid lightgreen;
     border-radius: 1rem;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     margin-top: 50px;
+    text-align: center  ;
 }
     /*imagenes de las pizzas*/
 .pizzas img{
@@ -78,9 +72,10 @@ margin-bottom: 6em;
     background-color: blue;
     border-radius: 15px;
     color: white;
+    padding: 1px 5px 1px 5px;
 }
 /*aqui el footer*/
-footer{
+.footer{
 text-align: center;}
 /*logo abajo al final*/
 .logo-final{
@@ -90,7 +85,6 @@ height: 7em;
 .logo-final img{
     height: 100%;
 }
-
 /*carrito.html*/
 .finalizacion{
 text-align: center;
@@ -110,43 +104,15 @@ text-align: center;
       background-color: #128c7e;
     }
 /*buton de finalizar compra*/
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-.container h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: black
-}
-
-.container p {
-    color: black;
-    line-height: 1.6;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-.highlight {
-    color: #FF5733;
-    font-weight: bold;
-}
-/*ubicacion.html*/
-.ubicacion-info{
-    text-align: center;
-}
-
+/*opiniones.html*/
 .contact-main{
     display: flex;
     justify-content: center;
-    margin-bottom: auto;
 }
 .contact{
     border-radius: 1rem;
     border: 2px solid #dbe308;
-    padding: 2em 2em 10em 2em;
+    padding-left: 1em;
     margin: 0.5rem;
 }
 .contact h1 {
@@ -154,6 +120,9 @@ text-align: center;
 }
 .contact label {
     margin-bottom: 5px;
+}
+.contact p{
+    text-align: center;
 }
 
 .contact input[type="text"],
@@ -178,6 +147,69 @@ text-align: center;
 .contact input[type="submit"]:hover {
     background-color: #45a049;
 }
+/*Aqui Agrego el BEM */
+/*nosotros.html y navbar*/
+.barramenu__contenedor{
+    justify-content: center;
+}
+.barramenu__contenedor__lista{
+    margin: 0px 120px 0px 40px;
+}
+.barramenu__contenedor__lista__a{
+    background-color: beige !important;
+    text-decoration: none !important;
+    border-radius: 100px !important;
+    color: black !important;
+}
+.carrito{
+    height: 30px;
+    text-align: end;
+}
+.carrito__imagen{
+    height: 100%;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.container__titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black
+}
+
+.container__texto {
+    color: black;
+    line-height: 1.6;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container__texto__subrayado {
+    color: #FF5733;
+    font-weight: bold;
+}
+.footer__contenido{
+    text-align: center;
+}
+.footer__logo__final{
+    text-align: center;
+    margin-left: center;
+    height: 7em;
+    }
+.footer__logo__final img{
+        height: 100%;
+}
+.footer__textofinal{
+    text-align: center;
+}
+/*ubicacion.html*/
+.ubicacion__info__texto{
+    text-align: center;
+}
+/*Termina BEM*/
 
 @media (max-width: 992px){
     .imagen-logo{
@@ -185,13 +217,19 @@ text-align: center;
     }
     .pizzas{
         height: max-content;
-        margin-bottom: 10px;
-        padding: 0px;
+        margin-top: 20px;
+        padding: 5px 0px 5px 0px;
     }
-    .nav-item{
-        margin-left: 0px;
-    }
-    .collapse{
-        display:block;
+.barramenu__contenedor{
+    display: block;
+}
+.barramenu__contenedor__lista{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.barramenu__contenedor__lista__a{
+border: 0px !important;
+background-color: #2B3035 !important;
+color: white !important;
 }
 }

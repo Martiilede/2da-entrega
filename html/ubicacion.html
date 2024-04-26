@@ -21,44 +21,45 @@
         <section class="logo">
             <img src="../assets/logo.png" alt="Logo">
         </section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="barramenu navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="barramenu__contenedor navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                  <li class="barramenu__contenedor__lista">
+                    <a class="nav-link active barramenu__contenedor__lista__a" aria-current="page" href="../index.html">INICIO</a>
+                   <li class="barramenu__contenedor__lista">
+                    <a class="nav-link barramenu__contenedor__lista__a" href="./nosotros.html">QUIENES SOMOS</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">QUIENES SOMOS</a>
+                  <li class="barramenu__contenedor__lista">
+                    <a class="nav-link barramenu__contenedor__lista__a" href="./ubicacion.html">DONDE ESTAMOS</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./ubicacion.html">DONDE ESTAMOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./opiniones.html">DEJANOS TU OPINION</a>
+                  <li class="barramenu__contenedor__lista">
+                    <a class="nav-link barramenu__contenedor__lista__a" href="./opiniones.html">DEJANOS TU OPINION</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-        <div class="carrito">
-            <a href="../html/carrito.html"><img src="../assets/carrito-de-compras.png" alt="carritodecompras"></a>
-        </div>
+    <aside>
+      <div class="carrito">
+        <a href="../html/carrito.html"><img class="carrito__imagen" src="../assets/carrito-de-compras.png" alt="carritodecompras"></a>
+      </div>
+    </aside>
         <main>
-            <section class="ubicacion-info">
-                <h1>NOS ENCONTRAMOS AQUI!!</h1>
+            <section class="ubicacion__info">
+                <h1 class="ubicacion__info__texto">NOS ENCONTRAMOS AQUI!!</h1>
                 <article>
-                    <h3>Podes encargarnos tu pedido o venirlo a buscar como te quede mas comodo</h3>
+                    <h3 class="ubicacion__info__texto">Podes encargarnos tu pedido o venirlo a buscar como te quede mas comodo</h3>
                 </article>
             </section>
         </main>
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-social">
+        <footer>
+            <div class="footer__contenido">
+                <div class="footer__contenido__redes">
                     <h3>Síguenos en redes sociales</h3>
                     <ul>
                         <li><a href="[Enlace de Facebook]">Facebook</a></li>
@@ -67,10 +68,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="logo-final">
-                <img src="/assets/logo.png" alt="Logo de [Nombre del Negocio]">
+            <div class="footer__logo__final">
+                <img src="../assets/logo.png" alt="Logo de Pizzeria">
             </div>
-            <div class="footer">
+            <div class="footer__textofinal">
                 <p>&copy; 2024 Pizzeria a la Pizza. Todos los derechos reservados.</p>
             </div>
         </footer>
