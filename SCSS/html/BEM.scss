@@ -1,0 +1,88 @@
+// nosotros.html, nabvar
+.barramenu__contenedor{
+    justify-content: center;
+    &__lista{
+      margin: 0px 120px 0px 40px;
+    &__a{
+        background-color:$fondo-links ;
+        text-decoration: none ;
+        border-radius: 100px ;
+        color: black;
+        &:hover{
+            color: #FF5733;
+        }
+     }
+  }
+}
+.carrito{
+    height: 30px;
+    text-align: end;
+&__imagen{
+    height: 100%;
+}
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+&__titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+&__texto{
+    color: black;
+    line-height: 1.6;
+    font-size: 25px;
+    margin-bottom: 20px;
+    &__subrayado{
+        color: #FF5733;
+        font-weight: bold;
+    }
+}
+}
+}
+.carrousel{
+    display: flex;
+justify-content: center;
+width: 800px;
+    &__imagen{
+         width: 100%;
+         margin-top: 20px;
+         margin-bottom: 20px;
+    }
+    }
+//ubicacion.html
+.ubicacion__info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    &__texto{
+        text-align: center;
+    }
+    &__imagen{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 1000px;
+        height: 400px;
+    }
+    }
+//footer
+.footer__contenido{
+    text-align: center;
+    h5{
+        font-size: 2em;
+    }
+}
+.footer__logo__final{
+    text-align: center;
+    margin-left: center;
+    height: 7em;
+ img{
+     height: 100%;
+ }    
+}
+.footer__textofinal{
+    text-align: center;
+}

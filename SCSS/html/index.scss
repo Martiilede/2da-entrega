@@ -1,0 +1,28 @@
+.main{
+    margin-bottom: 6em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pizzas{
+        width: 30em;
+        height: max-content;
+        background-color: $fondo-links;
+        border: 6px solid lightgreen;
+        border-radius: 1rem;
+        padding: 10px 0px 10px 0px;
+        margin-top: 50px;
+        text-align: center ;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+        //imagenes de las pizzas
+    .agregar-carrito{
+        background-color: blue;
+        border-radius: 15px;
+        color: white;
+        padding: 1px 5px 1px 5px;
+    }
