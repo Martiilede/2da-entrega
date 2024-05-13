@@ -1,0 +1,16 @@
+//variables y contiene el mapa
+@import "./_variables.scss";
+
+//mixins
+@import "./_mixins.scss";
+
+//partials
+@import "./Reset/_reset.scss";
+@import "./general/_header.scss";
+@import "./general/_aside.scss";
+@import "./html/_index.scss";
+@import "./html/_carrito.scss";
+@import "./html/_opiniones.scss";
+@import "./html/_BEM.scss";
+@import "./general/_footer.scss";
+@import "./_medias.scss";

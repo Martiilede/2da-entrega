@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  header {
-    background-color: #2B3035;
-  }
-  
-  .imagen-logo {
+      
+}
+header{
+    background-color: #2B3035;;
+}
+/*imagen del logo*/
+.imagen-logo{
     height: 100px;
     text-align: center;
   }

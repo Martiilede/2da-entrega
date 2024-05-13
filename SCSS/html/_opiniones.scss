@@ -1,0 +1,38 @@
+.contact-main{
+    @include flex(none, none, center);
+}
+.contact{
+    border-radius: 1rem;
+    border: 2px solid #dbe308;
+    padding-left: 1em;
+    margin: 0.5rem;
+    h1{
+        text-align: center;
+    }
+    label{
+        margin-bottom: map-get($mapa, cuarto);;
+    }
+    p{
+        text-align: center;
+    }
+    input[type="text"],
+    textarea{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: map-get($mapa, cuarto);;
+        box-sizing: border-box;
+    }
+    input[type="submit"]{
+        background-color: #4CAF50;
+        color: $color-white;
+        @include paddings(10px 20px);
+        border: none;
+        border-radius: map-get($mapa, cuarto);
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+}

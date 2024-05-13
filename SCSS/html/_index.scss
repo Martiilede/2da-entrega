@@ -1,0 +1,23 @@
+.main{
+    margin-bottom: 6em;
+    @include flex (row, wrap, space-around);
+    }
+    .pizzas{
+        @include width-height (30em, max-content);
+        background-color: $fondo-links;
+        border: $border;
+        border-radius: 1rem;
+        @include paddings (10px 0px 10px 0px);
+        margin-top: map-get($mapa , quinto );
+        text-align: center ;
+        img{
+            @include width-height (100% , 100%);
+        }
+    }
+        //imagenes de las pizzas
+    .agregar-carrito{
+        background-color: #0000ff;
+        border-radius: map-get($mapa , tercero );
+        color: $color-white;
+        @include paddings (1px 5px 1px 5px);
+    }

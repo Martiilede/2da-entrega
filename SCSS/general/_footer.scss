@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+    h5{
+        font-size: 2em;
+    }
+}
+.link{
+    @include paddings (0px 10px 0px 10px);
+    background-color: $fondo-links ;
+    text-decoration: none;
+    border-radius: 100px ;
+    color: $color-black;
+}
+//logo abajo al final
+.logo-final{
+    display:inline-block;
+    @include width-height(7em, 7em);
+    img{
+        @include width-height(100% ,100%);
+        @include animacionfinal;
+}
+}

@@ -1,0 +1,17 @@
+header{
+    background-color: $fondo;
+}
+// imagen del logo
+.imagen-logo{
+    @include width-height (none ,100px);
+    text-align: center;
+}
+
+// logo de la izquierda
+.logo{
+    @include width-height(7em , 7em);
+    img{
+        @include width-height(none ,100%);
+        @include animacionlogo;
+    }
+}
