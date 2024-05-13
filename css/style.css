@@ -270,14 +270,10 @@ header{
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    .carrousel {
+    .carrousel .ubicacion__info__imagen {
       width: 800px;
       height: auto;
     }
-    .ubicacion__info__imagen {
-        width: 800px;
-        height: auto;
-      }
   }
   @media (max-width: 768px) {
     .carrousel {
