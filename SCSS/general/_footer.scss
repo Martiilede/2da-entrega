@@ -1,22 +1,39 @@
-.footer{
+.footer__contenido{
     text-align: center;
-    h5{
-        font-size: 2em;
+    &__redes{
+        h5{
+            font-size: 2em;
+        }
     }
 }
 .link{
-    @include paddings (0px 10px 0px 10px);
-    background-color: $fondo-links ;
+    background-color: beige;
     text-decoration: none;
-    border-radius: 100px ;
+    border-radius: 100px;
+    @include paddings (3px 10px 3px 10px);
     color: $color-black;
 }
-//logo abajo al final
-.logo-final{
-    display:inline-block;
-    @include width-height(7em, 7em);
+.footer__logo__final{
+    text-align: center;
+    @include width-height(none, 7em);
     img{
-        @include width-height(100% ,100%);
-        @include animacionfinal;
+        @include width-height(none ,100%);
+        animation: giro-final;
+        animation-duration: 4s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        @keyframes giro-final {
+            from{
+             transform: rotatey(0deg);
+            }
+            to{
+            transform: rotatey(360deg);
+            }
+        }
+    }
 }
+
+.footer__textofinal{
+    text-align: center;
 }
