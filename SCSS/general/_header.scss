@@ -51,7 +51,11 @@ header {
             text-decoration: none;
             border-radius: map-get($mapa , tercero);
             color: $color-black;
-
+            font-family: "Roboto Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+                      
             &:hover {
                 color: $color-red;
             }

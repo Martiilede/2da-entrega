@@ -50,6 +50,10 @@ header {
   text-decoration: none;
   border-radius: 16px;
   color: black;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 .barramenu__contenedor__lista__a:hover {
   color: red;
@@ -78,25 +82,6 @@ header {
   font-size: 50px;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-}
-
-.finalizacion {
-  text-align: center;
-}
-
-.whatsapp-btn {
-  text-decoration: none;
-  background-color: #25d366;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.whatsapp-btn:hover {
-  background-color: #128c7e;
 }
 
 .main {
@@ -221,6 +206,25 @@ header {
   width: 100%;
   height: auto;
   margin: 20px none 20px none;
+}
+
+.finalizacion {
+  text-align: center;
+}
+
+.whatsapp-btn {
+  text-decoration: none;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.whatsapp-btn:hover {
+  background-color: #128c7e;
 }
 
 .footer__contenido {
